@@ -6,15 +6,30 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
+  color: #4b3c2f;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.container {
+  width: 1500px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #EEEEEE;
 }
 
 #header {
   float: left;
   width: 100%;
+  background-color: #dd712e;
 }
 
 #header-container {
-  background-color: #DDDDDD;
+  background-color: #dd712e;
   margin: 0 auto;
   width: 1500px;
   height: 300px;
@@ -22,8 +37,28 @@ h1 {
 
 #logo-container {
   float: left;
+  position: relative;
+  top: 80px;
 }
 
 #main-logo {
   font-size: 100px;
+}
+
+#main {
+  float: left;
+  width: 100%;
+  height: 1000px;
+  background-color: #8caec9;
+}
+
+#overview {
+  background-color: #75a2a0;
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+
+#overview-container {
+  background-color: #75a2a0;
 }
