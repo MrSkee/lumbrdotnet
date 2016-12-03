@@ -15,6 +15,10 @@ h3 {
   font-size: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 1500px;
   height: 100px;
@@ -53,12 +57,41 @@ h3 {
 }
 
 #overview {
-  background-color: #75a2a0;
+  background-color: #eead84;
   float: left;
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 #overview-container {
-  background-color: #75a2a0;
+  background-color: #eead84;
+}
+
+#tryDemoButton-container {
+  background-color: #eead84;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  height: 50px;
+  background-color: #7272DE;
+  float: left;
+  position: relative;
+  top: 20px;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.button .text {
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  top: 13px;
+  font-size: 20px;
 }
