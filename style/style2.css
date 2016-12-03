@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #9d5738;
+  background-color: #777777;
 }
 
 h1 {
@@ -39,11 +39,11 @@ a {
 #logo-container {
   float: left;
   position: relative;
-  top: 55px;
+  top: 100px;
 }
 
 #main-logo {
-  font-size: 75px;
+  font-size: 55px;
 }
 
 #spacer {
@@ -56,7 +56,7 @@ a {
 #main {
   float: left;
   width: 100%;
-  height: 750px;
+  height: 600px;
   background-color: #eead84;
 }
 
@@ -69,7 +69,7 @@ a {
   float: left;
   width: 150px;
   background-color: #f5d8cc;
-  height: 750px;
+  height: 600px;
 }
 
 .nav-button {
