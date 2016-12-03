@@ -20,6 +20,18 @@ a {
     text-decoration: none;
 }
 
+.clear {
+  clear: both;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 500px;
+  margin-top: 50px;
+  background-color: #777777;
+  float: left;
+}
+
 #header {
   float: left;
   width: 100%;
@@ -114,6 +126,66 @@ a {
 #nav-container hr {
   border-color: #c3beba;
   margin: 0;
+}
+
+#content-container {
+  width: 1150px;
+  height: 600px;
+  float: left;
+}
+
+#budget-container {
+  float: left;
+  width: 750px;
+}
+
+#notificationFeed-container {
+  float: left;
+  width: 300px;
+}
+
+#notificationFeed-container .horizontalLine {
+  background-color: #777777;
+  height: 1px;
+  width: 100%;
+  float: left;
+}
+
+#feed-container {
+  position: relative;
+  top: -15px;
+}
+
+.notification {
+  margin-left: 10px;
+  height: 100px;
+  float: left;
+}
+
+.notification h4 {
+  font-size: 20px;
+  font-weight: 400;
+  float: left;
+  width: 100%;
+}
+
+.notification .date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.notification .points {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.notification p {
+  float: left;
+  position: relative;
+  top: -35px;
+  margin-bottom: 3px;
+  font-weight: 300;
+  width: 100%;
 }
 
 #footer {
