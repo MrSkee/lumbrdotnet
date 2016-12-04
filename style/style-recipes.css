@@ -1,0 +1,44 @@
+#nutrition-container {
+  position: relative;
+  top: -124px;
+}
+
+#search-container {
+  position: relative;
+  top: -75px;
+  left: 300px;
+}
+
+#search-container h3 {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+#search-container input {
+  position: relative;
+  top: -40px;
+  left: 150px;
+}
+
+#searchbox {
+  background-color: #E4E4E4;
+  border: none;
+  height: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#nutrition-container h3 {
+  background-color: white;
+}
+
+#nutrition-info {
+  background-color: white;
+}
+
+#nutrition-info img {
+  position: relative;
+  left: 100px;
+  top: 75px;
+}
