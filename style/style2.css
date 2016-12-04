@@ -93,6 +93,19 @@ a {
   height: 600px;
 }
 
+#avatar {
+  position: relative;
+  width: 60px;
+  height: 140px;
+}
+
+#avatar img {
+  width: 55px;
+  position: relative;
+  left: 45px;
+  top: 10px;
+}
+
 .nav-button {
   display: block;
   width: 100%;

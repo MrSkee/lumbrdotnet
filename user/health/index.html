@@ -34,6 +34,9 @@
   <div id="main">
     <div id="main-container">
       <div id="nav-container">
+        <div id="avatar">
+          <img src="..\..\assets\joe.svg">
+        </div>
         <a href="..\index.html" id="overview" class="nav-button" style="z-index: 10;">
           <span class="text" style="z-index: 11;"> Overview </span>
         </a>
@@ -73,14 +76,31 @@
       <div id="content-container">
         <div id="health-container">
           <h3 style="font-size: 40px;"> Health </h3>
+          <div id="points-container">
+            <h3> Points Available Today </h3>
+            <ul>
+              <li> Protein: <span> 10 points </span></li>
+              <li> Grains: <span> 33 points </span></li>
+              <li> Vegetables: <span> 20 points </span></li>
+              <li> Fruits: <span> 4 points </span></li>
+            </ul>
+          </div>
           <div id="nutrition-container">
             <h3> <span style="margin-left: 15px;"> Nutrition </span> </h3>
             <div id="nutrition-info">
+              <span class="verticalLine1"></span>
               <div class="item" style="position: relative; top: 20px;">
                 <h3> Salmon </h3>
                 <img src="..\..\assets\salmon.svg" />
                 <span class="verticalLine"></span>
                 <p> Cost: <span> 5 points </span></p>
+              </div>
+              <span class="verticalLine1" style="position: relative; left: -76px; top: 55px; background-color: #5ac190;"></span>
+              <div id="apple" class="item" style="position: relative; top: 40px;">
+                <h4> Apple </h4>
+                <img src="..\..\assets\apple.svg" />
+                <span class="verticalLine"></span>
+                <p> Cost: <span> 2 points </span></p>
               </div>
             </div>
           </div>
